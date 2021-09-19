@@ -5,16 +5,8 @@ Simply put, this process includes eliminating unstructured data and redundancy (
 When data normalization is done correctly, you will end up with standardized information entry. 
 For example, this process applies to how URLs, contact names, street addresses, phone numbers, and even codes are recorded. 
 These standardized information fields can then be grouped and read swiftly.
-**How data normalization works**
-Now is the moment to note that, depending on your specific type of data, your normalization will look differently.
 
-At its most basic, normalization is simply creating a standard format for all data throughout a company:
 
-Miss EMILY will be written in Ms. Emily
-8023097864 will be written 802-309-7864
-24 canillas RD will be written 24 Canillas Road
-GoogleBiz will be written Google Biz, Inc.
-VP marketing will be written Vice President of Marketing
 
 
 Normalization is used to scale the data of an attribute so that it falls in a smaller range, such as -1.0 to 1.0 or 0.0 to 1.0. 
@@ -24,11 +16,7 @@ It is generally useful for classification algorithms.
 Normalization is generally required when we are dealing with attributes on a different scale, otherwise, it may lead to a dilution in effectiveness of an 
 important equally important attribute(on lower scale) because of other attribute having values on larger scale.
 
-Methods of Data Normalization –
 
-1. Decimal Scaling
-2. Min-Max Normalization
-3. z-Score Normalization(zero-mean Normalization)
 
 **Scaling to a range**
 scaling means converting floating-point feature values from their natural range (for example, 100 to 900) into a standard range—usually 0 and 1 (or sometimes -1 to +1).
