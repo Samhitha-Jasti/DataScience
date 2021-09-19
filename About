@@ -1,2 +1,61 @@
 **What is data normalization?**
-Data normalization is generally considered the development of clean data. 
+Data normalization is generally considered the development of clean data.It increases the cohesion of entry types leading to cleansing, lead generation, segmentation,
+and higher quality data.
+Simply put, this process includes eliminating unstructured data and redundancy (duplicates) in order to ensure logical data storage.
+When data normalization is done correctly, you will end up with standardized information entry. 
+For example, this process applies to how URLs, contact names, street addresses, phone numbers, and even codes are recorded. 
+These standardized information fields can then be grouped and read swiftly.
+**How data normalization works**
+Now is the moment to note that, depending on your specific type of data, your normalization will look differently.
+
+At its most basic, normalization is simply creating a standard format for all data throughout a company:
+
+Miss EMILY will be written in Ms. Emily
+8023097864 will be written 802-309-7864
+24 canillas RD will be written 24 Canillas Road
+GoogleBiz will be written Google Biz, Inc.
+VP marketing will be written Vice President of Marketing
+
+
+Normalization is used to scale the data of an attribute so that it falls in a smaller range, such as -1.0 to 1.0 or 0.0 to 1.0. 
+It is generally useful for classification algorithms.
+
+**Need of Normalization** –
+Normalization is generally required when we are dealing with attributes on a different scale, otherwise, it may lead to a dilution in effectiveness of an 
+important equally important attribute(on lower scale) because of other attribute having values on larger scale.
+
+Methods of Data Normalization –
+
+1. Decimal Scaling
+2. Min-Max Normalization
+3. z-Score Normalization(zero-mean Normalization)
+
+**Scaling to a range**
+scaling means converting floating-point feature values from their natural range (for example, 100 to 900) into a standard range—usually 0 and 1 (or sometimes -1 to +1).
+Use the following simple formula to scale to a range:
+Scaling to a range is a good choice when both of the following conditions are met:
+
+1. You know the approximate upper and lower bounds on your data with few or no outliers.
+2. Your data is approximately uniformly distributed across that range.
+A good example is age. Most age values falls between 0 and 90, and every part of the range has a substantial number of people.
+
+In contrast, you would not use scaling on income, because only a few people have very high incomes.
+The upper bound of the linear scale for income would be very high, and most people would be squeezed into a small part of the scale.
+
+**Feature Clipping**
+If your data set contains extreme outliers, you might try feature clipping, which caps all feature values above (or below) a certain value to fixed value.
+For example, you could clip all temperature values above 40 to be exactly 40. 
+
+
+**Log Scaling**
+Log scaling computes the log of your values to compress a wide range to a narrow range.
+
+Log scaling is helpful when a handful of your values have many points, while most other values have few points and When the feature conforms to the power law.. 
+This data distribution is known as the power law distribution. Movie ratings are a good example.
+In the chart below, most movies have very few ratings (the data in the tail), while a few have lots of ratings (the data in the head).
+Log scaling changes the distribution, helping to improve linear model performance.
+
+**Z-Score**
+Z-score is a variation of scaling that represents the number of standard deviations away from the mean. 
+You would use z-score to ensure your feature distributions have mean = 0 and std = 1.
+It’s useful when there are a few outliers, but not so extreme that you need clipping.
