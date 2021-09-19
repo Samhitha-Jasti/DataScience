@@ -1,0 +1,8 @@
+It is a step of Data Pre Processing which is applied to independent variables or features of data.'
+It basically helps to normalise the data within a particular range. 
+Sometimes, it also helps in speeding up the calculations in an algorithm.
+Sklearn library in python has an inbuilt function for scaling of a feature directly
+It's called StandardScaler
+
+
+
