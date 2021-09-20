@@ -1,4 +1,4 @@
-**What is data normalization?**
+*What is data normalization?*
 Data normalization is generally considered the development of clean data.
 It increases the cohesion of entry types leading to cleansing, lead generation, segmentation,
 and higher quality data.
@@ -41,8 +41,11 @@ Log scaling computes the log of your values to compress a wide range to a narrow
 
 Log scaling is helpful when a handful of your values have many points, while most other values have few points and When the feature conforms to the power law.. 
 This data distribution is known as the power law distribution. Movie ratings are a good example.
-In the chart below, most movies have very few ratings (the data in the tail), while a few have lots of ratings (the data in the head).
+In the chart below, most movies have very few ratings (the data in the tail), while a few have lots of ratings 
+(the data in the head).
 Log scaling changes the distribution, helping to improve linear model performance.
+Log scaling is more symmetric in the perfect case. It will compress the large amount of data to small. 
+It's basically isolating the exponent.
 
 **Z-Score**
 Z-score is a variation of scaling that represents the number of standard deviations away from the mean. 
