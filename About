@@ -1,5 +1,6 @@
 **What is data normalization?**
-Data normalization is generally considered the development of clean data.It increases the cohesion of entry types leading to cleansing, lead generation, segmentation,
+Data normalization is generally considered the development of clean data.
+It increases the cohesion of entry types leading to cleansing, lead generation, segmentation,
 and higher quality data.
 Simply put, this process includes eliminating unstructured data and redundancy (duplicates) in order to ensure logical data storage.
 When data normalization is done correctly, you will end up with standardized information entry. 
