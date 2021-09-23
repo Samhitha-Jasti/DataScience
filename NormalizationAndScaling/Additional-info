@@ -1,0 +1,13 @@
+**So what is the difference between Normalizing and Scaling?**
+Normalization adjusts the values of your numeric data to a common scale without changing the range whereas scaling shrinks or stretches the data to fit within 
+a specificrange. Scaling is useful when you want to compare two different variables on equal grounds.
+
+Min-max normalization: Guarantees all features will have the exact same scale but does not handle outliers well.
+Z-score normalization: Handles outliers, but does not produce normalized data with the exact same scale.
+
+
+Will these methods improve data?
+It is hard to know whether rescaling your data will improve the performance of your algorithms before you apply them. If often can, but not always.
+
+A good tip is to create rescaled copies of your dataset and race them against each other using your test harness and a handful of algorithms you want to spot check. 
+This can quickly highlight the benefits (or lack there of) of rescaling your data with given models, and which rescaling method may be worthy of further investigation.
