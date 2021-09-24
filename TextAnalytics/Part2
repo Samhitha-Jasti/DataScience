@@ -1,3 +1,12 @@
 Tokenization -> Frequency Distribution -> Removing Stopwords -> Lexical Normalization -> POS Tagging
 
 Two types of Tokenization- Sentence and Word
+
+TEXT DATA TRANSFORMATION
+-- Preparing text for data modelling
+
+Bag Of Words -> Words Count with Count Vectorizer -> Word frequencies with TfidVectorizer
+
+
+TEXT ANALYTICS PROCESS FLOW
+Text Data Acquisition -> Text Data Clearning and Preprocessing -> Data Transformation -> Building Model -> Evaluation and Insights
