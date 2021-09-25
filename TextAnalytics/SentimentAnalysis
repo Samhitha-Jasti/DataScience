@@ -23,3 +23,6 @@ Term frequency is calculated for each document in corpus and is the frequency of
 
 TERM FREQUENCY-INVERSE DOCUMENT FREQUENCY(TF-IDF):
 TF-IDF measures how important a word is in document. If a number appear more times then it's importance increase and decrease when it appears very few times.
+
+CountVectorizer is used to create count vectors. 
+sklearn.feature_extraction.text module provides classes for creating both TF and TF-IDF vectors from text data.
