@@ -1,0 +1,25 @@
+The dataset used here contains review comments on several movies.
+The dataset contains two fields- Text and Sentiment.
+  1) Text-> Review comment by user on the movie
+  2) Sentiment-> 1 for posiive, 0 for negative
+
+NOTE: Each sentence is called document and collection of all documents makes a corpus.
+
+In text Analytics, we need to process data to extract features from text data. Unlike Structured data, features are not explicitly available in text data.
+We can do bag-of-words model, this can be done by considering each word as a feature and find a measure to capture whether a word exists in the sentence or not.
+
+BAG OF WORDS:
+First step is to make a dictionary of all the words in the corpus.
+There are three ways to identify the importance of words in BoW Model:
+  1. Count Vector Model
+  2. Term Frequency Vector Model
+  3. Term Frequency-Inverse Document Frequency (TF-IDF) Model.
+  
+COUNT VECTOR MODEL:
+All the words in a document is consideres as feature. All features will be unique, but a repeated word will increase the count of it's feature in vector.
+
+TERM FREQUENCY VECTOR MODEL:
+Term frequency is calculated for each document in corpus and is the frequency of each term in the given document.
+
+TERM FREQUENCY-INVERSE DOCUMENT FREQUENCY(TF-IDF):
+TF-IDF measures how important a word is in document. If a number appear more times then it's importance increase and decrease when it appears very few times.
