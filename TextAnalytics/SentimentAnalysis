@@ -31,3 +31,6 @@ sklearn.feature_extraction.text module provides classes for creating both TF and
 SPARSE MATRIX:
 After converting a document into a vector, there will be a sparse matrix because so many words in document are unique and not repeated.
 Sparse matrix helps in optimizing storaage as well as computational needs because it only stores non-zero values and their index in the vector.
+
+MATRIX AND VECTOR:
+https://www.oreilly.com/library/view/machine-learning-with/9781491989371/ch01.html
