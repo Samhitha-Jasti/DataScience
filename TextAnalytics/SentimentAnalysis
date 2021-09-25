@@ -27,3 +27,7 @@ TF-IDF measures how important a word is in document. If a number appear more tim
 
 CountVectorizer is used to create count vectors. 
 sklearn.feature_extraction.text module provides classes for creating both TF and TF-IDF vectors from text data.
+
+SPARSE MATRIX:
+After converting a document into a vector, there will be a sparse matrix because so many words in document are unique and not repeated.
+Sparse matrix helps in optimizing storaage as well as computational needs because it only stores non-zero values and their index in the vector.
