@@ -46,8 +46,13 @@ Latent Semantic Analysis(LSA):
 This is the traditional method for topic modelling. It is based on principle called distributional hypothesis(words and text occuring in similar pieces of text have 
 similar meaning). Like Naive Bayes, it is based on the word frequencies of the dataset. 
 The general idea is that for every word in each document, you can count the frequency of that word and group together the documents that have high frequencies of the same words.
-
-
+These algorithms ignore syntax and semantics such as word order, meaning and grammar and just treat every document as unsorted "bag of words".
+Latent semantic analysis(LSA):
+Frequency is calculated by simply counting, but this approach seems to be limited so TF-IDF is used.
+TF-IDF (term frequency-inverse document frequency) is a statistical measure that evaluates how relevant a word is to a document in a document set.
+TF-IDF takes how common a word is in document. it gives priority to highly repeated words. After doing the word frequency calculation, we are left with a matrix that 
+has a row for every word and a column for every document. Each cell is the calculated frequency for that word in that document. 
+This is the document-term matrix; it relates documents to terms.
 
 What if we don't have Topic tags?
 No worries, the models are capable of generating topics from the text using frequency and space between the words.
