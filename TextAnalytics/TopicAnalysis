@@ -1,0 +1,18 @@
+What is Topic Analysis:
+
+Topic analysis is a Natural Language Processing (NLP) technique that allows us to automatically extract meaning from text by identifying recurrent themes or topics.
+It automatically assigns topic to text data. (or) Topic analysis (also called topic detection, topic modeling, or topic extraction) is a machine learning technique that organizes
+and understands large collections of text data, by assigning “tags” or categories according to each individual text’s topic or theme.
+
+
+Purpose of Topic Analysis:
+Topic analysis uses natural language processing (NLP) to break down human language to find patterns and unlock semantic structures within texts to extract insights 
+and help make data-driven decisions.
+
+Approaches to Topic Analysis:
+There are two different approaches to topic analysis:
+
+NLP Topic modeling: used to discover the main topics within a bunch of texts
+NLP Topic classification: used to automatically categorize texts by topics
+
+The main difference between these two techniques is that one uses a supervised algorithm (topic classification), and the other an unsupervised algorithm (topic modeling). 
