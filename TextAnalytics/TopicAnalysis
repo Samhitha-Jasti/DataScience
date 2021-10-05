@@ -1,9 +1,7 @@
 What is Topic Analysis:
-
 Topic analysis is a Natural Language Processing (NLP) technique that allows us to automatically extract meaning from text by identifying recurrent themes or topics.
 It automatically assigns topic to text data. (or) Topic analysis (also called topic detection, topic modeling, or topic extraction) is a machine learning technique that organizes
 and understands large collections of text data, by assigning “tags” or categories according to each individual text’s topic or theme.
-
 
 Purpose of Topic Analysis:
 Topic analysis uses natural language processing (NLP) to break down human language to find patterns and unlock semantic structures within texts to extract insights 
@@ -12,22 +10,19 @@ and help make data-driven decisions.
 Approaches to Topic Analysis:
 There are two different approaches to topic analysis:
 
-NLP Topic modeling: 
+ 1) NLP Topic modeling: 
 Used to discover the main topics within a bunch of texts. This is an unsupervised machine learning technique. It doesn't need to define topic tags or train data beforehand.
 
-NLP Topic classification: 
-used to automatically categorize texts by topics. This is a supervised machine learning technique. This technique needs to know the topics of text before starting the analysis.
+ 2) NLP Topic classification: 
+Used to automatically categorize texts by topics. This is a supervised machine learning technique. This technique needs to know the topics of text before starting the analysis.
 This technique is much more effective and accurate than Clustering algorithms.
 
 The main difference between these two techniques is that one uses a supervised algorithm (topic classification), and the other an unsupervised algorithm (topic modeling). 
 
 Mechanism of Topic Analysis:
 Models of Topic Analysis are able to detect topics in a text with Machine Learning algorithms that count words and find similar group of patterns.
-
-
 For example, consider we want to know Customers opinion on newly launched features of a laptop. Our topic of interest is Portability,Design and price.
 So, now instead of going through whole data set, it will be easier if we just concentrate on out topics of interest.
-
 For Price, analysis models might detect patterns such as currency symbols followed by numbers, related words (affordability, expensive, cheap), 
 synonyms (cost, price tag, worth) or phrases (worth every penny), and label the corresponding text accordingly.
 
@@ -48,10 +43,9 @@ on the words they contain, and noticing correlations between them.
 
 Some of the popular algorithms for topic modelling is: LSA and LDA.
 Latent Semantic Analysis(LSA):
-This is the traditional method for topic modelling. It is based on principle called distributional hypothesis(words and text occuring in similar
-pieces of text have similar meaning). Like Naive Bayes, it is based on the word frequencies of the dataset. 
-The general idea is that for every word in each document, you can count the frequency of that word and group together
-the documents that have high frequencies of the same words.
+This is the traditional method for topic modelling. It is based on principle called distributional hypothesis(words and text occuring in similar pieces of text have 
+similar meaning). Like Naive Bayes, it is based on the word frequencies of the dataset. 
+The general idea is that for every word in each document, you can count the frequency of that word and group together the documents that have high frequencies of the same words.
 
 
 
