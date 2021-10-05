@@ -41,6 +41,7 @@ The way these algorithms work is by assuming that each document is composed of a
 find out how strong a presence each topic has in a given document. This is done by grouping together the documents based 
 on the words they contain, and noticing correlations between them.
 
+I'd like to keep this documentation, a beginner friendly purpose, so I'm not ellaborating the algorithms for topic modelling.
 Some of the popular algorithms for topic modelling is: LSA and LDA.
 Latent Semantic Analysis(LSA):
 This is the traditional method for topic modelling. It is based on principle called distributional hypothesis(words and text occuring in similar pieces of text have 
