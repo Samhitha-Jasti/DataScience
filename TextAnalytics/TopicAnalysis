@@ -12,7 +12,18 @@ and help make data-driven decisions.
 Approaches to Topic Analysis:
 There are two different approaches to topic analysis:
 
-NLP Topic modeling: used to discover the main topics within a bunch of texts
-NLP Topic classification: used to automatically categorize texts by topics
+NLP Topic modeling: 
+Used to discover the main topics within a bunch of texts. This is an unsupervised machine learning technique. It doesn't need to define topic tags or train data beforehand.
+
+NLP Topic classification: 
+used to automatically categorize texts by topics. This is a supervised machine learning technique. This technique needs to know the topics of text before starting the analysis.
+This technique is much more effective and accurate than Clustering algorithms.
 
 The main difference between these two techniques is that one uses a supervised algorithm (topic classification), and the other an unsupervised algorithm (topic modeling). 
+
+Mechanism of Topic Analysis:
+Models of Topic Analysis are able to detect topics in a text with Machine Learning algorithms that count words and find similar group of patterns.
+
+
+For example, consider we want to know Customers opinion on newly launched features of a laptop. Our topic of interest is Portability,Design and price.
+So, now instead of going through whole data set, it will be easier if we just concentrate on out topics of interest.
