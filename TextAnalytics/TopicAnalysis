@@ -4,12 +4,14 @@ It automatically assigns topic to text data. (or) Topic analysis (also called to
 and understands large collections of text data, by assigning “tags” or categories according to each individual text’s topic or theme.
 
 Purpose of Topic Analysis:
-Topic analysis uses natural language processing (NLP) to break down human language to find patterns and unlock semantic structures within texts to extract insights 
+ 1) Topic analysis uses natural language processing (NLP) to break down human language to find patterns and unlock semantic structures within texts to extract insights 
 and help make data-driven decisions.
-
+ 2) Topic Tagging helps in analyzing huge amounts of text data in a fast and cost-effective way.
 Approaches to Topic Analysis:
 There are two different approaches to topic analysis:
-
+ 3) Topic Analysis can be used in many fields like Customer Service, Business Intelligence, Sales and Marketing.
+ 
+Steps involved in Topic Analysis:
  1) NLP Topic modeling: 
 Used to discover the main topics within a bunch of texts. This is an unsupervised machine learning technique. It doesn't need to define topic tags or train data beforehand.
 
@@ -41,19 +43,25 @@ The way these algorithms work is by assuming that each document is composed of a
 find out how strong a presence each topic has in a given document. This is done by grouping together the documents based 
 on the words they contain, and noticing correlations between them.
 
-I'd like to keep this documentation, a beginner friendly purpose, so I'm not ellaborating the algorithms for topic modelling.
+I'd like to keep this documentation a beginner friendly source, so I'm not ellaborating the algorithms for topic modelling.
 Some of the popular algorithms for topic modelling is: LSA and LDA.
+
 Latent Semantic Analysis(LSA):
 This is the traditional method for topic modelling. It is based on principle called distributional hypothesis(words and text occuring in similar pieces of text have 
 similar meaning). Like Naive Bayes, it is based on the word frequencies of the dataset. 
 The general idea is that for every word in each document, you can count the frequency of that word and group together the documents that have high frequencies of the same words.
 These algorithms ignore syntax and semantics such as word order, meaning and grammar and just treat every document as unsorted "bag of words".
-Latent semantic analysis(LSA):
 Frequency is calculated by simply counting, but this approach seems to be limited so TF-IDF is used.
 TF-IDF (term frequency-inverse document frequency) is a statistical measure that evaluates how relevant a word is to a document in a document set.
 TF-IDF takes how common a word is in document. it gives priority to highly repeated words. After doing the word frequency calculation, we are left with a matrix that 
 has a row for every word and a column for every document. Each cell is the calculated frequency for that word in that document. 
 This is the document-term matrix; it relates documents to terms.
+
+Latent Dirichlet Allocation(LDA):
+LDA tries to map all the documents(known) to the unknown topics in such a way that words in each document are mostly
+captured by the known topics. LDA works backward from the words in the generated document that make up the document and tries to guess the mixture of topics that resulted in that 
+particular arrangement of words.
+
 
 What if we don't have Topic tags?
 No worries, the models are capable of generating topics from the text using frequency and space between the words.
