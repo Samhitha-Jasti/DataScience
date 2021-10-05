@@ -27,3 +27,35 @@ Models of Topic Analysis are able to detect topics in a text with Machine Learni
 
 For example, consider we want to know Customers opinion on newly launched features of a laptop. Our topic of interest is Portability,Design and price.
 So, now instead of going through whole data set, it will be easier if we just concentrate on out topics of interest.
+
+For Price, analysis models might detect patterns such as currency symbols followed by numbers, related words (affordability, expensive, cheap), 
+synonyms (cost, price tag, worth) or phrases (worth every penny), and label the corresponding text accordingly.
+
+
+How does Topic Modelling and Topic classification works?
+If we are trying to determine the topics of the texts, we need topic modelling. If we have the topics and we need to classify them, then we need Topic Classification.
+Unsupervised Learning is easier compared to Supervised Learning, but when dealing large sets, it needs quality data. 
+And the models doesn't really label all the topics and give it to us. Rather, they will churn out collections of documents that the algorithm thinks are related, and 
+specific terms that it used to infer these relations. It will be our job to figure out what these relations actually mean.
+On the other hand, Supervised algorithms can make or break the model. If we are consistent in labelling the texts, model can classify new and unseen samples according to 
+the topics.
+
+
+Further Learning about Modelling and Classification:
+The way these algorithms work is by assuming that each document is composed of a mixture of topics, and then trying to
+find out how strong a presence each topic has in a given document. This is done by grouping together the documents based 
+on the words they contain, and noticing correlations between them.
+
+Some of the popular algorithms for topic modelling is: LSA and LDA.
+Latent Semantic Analysis(LSA):
+This is the traditional method for topic modelling. It is based on principle called distributional hypothesis(words and text occuring in similar
+pieces of text have similar meaning). Like Naive Bayes, it is based on the word frequencies of the dataset. 
+The general idea is that for every word in each document, you can count the frequency of that word and group together
+the documents that have high frequencies of the same words.
+
+
+
+What if we don't have Topic tags?
+No worries, the models are capable of generating topics from the text using frequency and space between the words.
+But it's not that simple, it's little more complicated.
+
