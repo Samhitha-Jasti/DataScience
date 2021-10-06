@@ -25,6 +25,7 @@ It helps in preventing future trouble.
 5) Employee Management Systems
 
 One of the most important application of Text Analytics is Topic Analysis. Let's see what is topic analysis, types and it's mechanism.
+
 **What is Topic Analysis:**
 
 Topic analysis is a Natural Language Processing (NLP) technique that allows us to automatically extract meaning from text by identifying recurrent themes or topics.
