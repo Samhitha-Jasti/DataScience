@@ -28,8 +28,7 @@ One of the most important application of Text Analytics is Topic Analysis. Let's
 **What is Topic Analysis:**
 
 Topic analysis is a Natural Language Processing (NLP) technique that allows us to automatically extract meaning from text by identifying recurrent themes or topics.
-It automatically assigns topic to text data. (or) Topic analysis (also called topic detection, topic modeling, or topic extraction) is a machine learning technique that organizes
-and understands large collections of text data, by assigning “tags” or categories according to each individual text’s topic or theme.
+It automatically assigns topic to text data. (or) Topic analysis (also called topic detection, topic modeling, or topic extraction) is a machine learning technique that organizes and understands large collections of text data, by assigning “tags” or categories according to each individual text’s topic or theme.
 
 #### Purpose of Topic Analysis:
  1) Topic analysis uses natural language processing (NLP) to break down human language to find patterns and unlock semantic structures within texts to extract insights 
@@ -40,3 +39,10 @@ There are two different approaches to topic analysis:
  3) Topic Analysis can be used in many fields like Customer Service, Business Intelligence, Sales and Marketing.
  4) Topic analysis helps businesses become more efficient by saving time on repetitive manual tasks and gathers insights from the text data they manage on a daily basis.
  
+#### Steps involved in Topic Analysis:
+ 1) NLP Topic modeling: 
+Used to discover the main topics within a bunch of texts. This is an unsupervised machine learning technique. It doesn't need to define topic tags or train data beforehand.
+
+ 2) NLP Topic classification: 
+Used to automatically categorize texts by topics. This is a supervised machine learning technique. This technique needs to know the topics of text before starting the analysis.
+This technique is much more effective and accurate than Clustering algorithms.
